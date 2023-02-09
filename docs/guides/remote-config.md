@@ -18,11 +18,11 @@ can be updated live from the [dashboard](https://bloxadmin.com)
 
 - Daily or weekly in-game shop changes
 
-- In-game Announcements
-
 - Cost of in-game items
 
 - A list of users with admin privilges on the game
+
+- Enable and disable features of your game live
 
 Have another use-case? Tell us about it on Discord
 https://discord.gg/ZNENruRTeG, we'd love to hear!
