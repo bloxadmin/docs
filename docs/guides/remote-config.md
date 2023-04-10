@@ -36,7 +36,7 @@ https://discord.gg/ZNENruRTeG, we'd love to hear!
 ## Creating and Updating
 
 To update the Remote Config head to the [dashboard](https://bloxadmin.com) and
-select your game. On the sidebar select "Remote Config"
+select your game. On the sidebar select "Data" and scroll to the "Remote Config"
 
 At first you won't have anything configured, but to get started click "Create"
 at the top right. Enter a name for the parameter and a value.
