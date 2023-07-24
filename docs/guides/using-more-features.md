@@ -1,12 +1,12 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 import Tabs from "@theme/Tabs";
 
 import TabItem from "@theme/TabItem";
 
-# Using More Features
+# Using The Roblox Library
 
 To use more features of bloxadmin you'll use the return of
 `require(7586411088)()` you used to initialize bloxadmin. This return is a table
