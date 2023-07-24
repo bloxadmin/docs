@@ -58,7 +58,7 @@ require(7586411088)("API_KEY");
 :::caution
 
 Make sure you add the code in a **server script** stored in
-**ServerScriptStorage**. bloxadmin will **not** run on the client. And
+**ServerScriptService**. bloxadmin will **not** run on the client. And
 attempting to run it on the client could expose sensitive information to
 malicious actors.
 
