@@ -71,7 +71,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'category/guides',
+            docId: '/category/guides',
             position: 'left',
             label: 'Guides',
           },
