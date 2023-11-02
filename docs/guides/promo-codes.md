@@ -41,8 +41,9 @@ Some configuration options include:
 - **Active**: Whether or not the code is active and can be redeemed. If you want
   to disable a code, but not delete it, you can set this to false
 
-- **Uses**: The number of times the code can be redeemed. Setting this to 0 will
-  allow the code to be redeemed an unlimited number of times.
+- **Uses**: The total amount of players who can redeem this code. Setting this
+  to 0 will allow the code to be redeemed an unlimited number of times. Each
+  player can only ever redeem a code once.
 
 - **Starts** (coming soon): The date and time the code will become redeemable.
   Before this date, the code will not be redeemable.
