@@ -8,7 +8,7 @@ import TabItem from "@theme/TabItem";
 
 # Promotion Codes
 
-Promotion codes, or promo codes, are codes your players in game to access
+Promotion codes, or promo codes, are in-game codes player can use to access
 content or gain in-game items.
 
 ## When to use Promotion Codes
@@ -33,7 +33,7 @@ select your game. On the sidebar select "Data" and scroll to the "Promotion
 Codes"
 
 At first you won't have anything configured, but to get started click the
-"Create" icon at the top right. Enter a name for the code and click Add. Then, 
+"Create" icon at the top right. Enter a name for the code and click Add. Then,
 configure your code and click save!
 
 Some configuration options include:
@@ -44,11 +44,11 @@ Some configuration options include:
 - **Uses**: The number of times the code can be redeemed. Setting this to 0 will
   allow the code to be redeemed an unlimited number of times.
 
-- **Starts** (coming soon): The date and time the code will become redeemable. Before this
-  date, the code will not be redeemable.
+- **Starts** (coming soon): The date and time the code will become redeemable.
+  Before this date, the code will not be redeemable.
 
-- **Expires** (coming soon): The date and time the code will expire. After this date, the code
-  will no longer be redeemable.
+- **Expires** (coming soon): The date and time the code will expire. After this
+  date, the code will no longer be redeemable.
 
 - **Attributes**: A list of key value pairs that can be used to store any
   information you want. For example, you could use this to store the item a
@@ -100,17 +100,19 @@ bloxadmin:GetService("PromoCodes"):ClaimCode(player, code)
 
 When a player inputs a code to be redeemed, you can use the code above to
 attempt to redeem the code. If the code is valid, the code will be redeemed and
-the `andThen` callback will be called with the `PromoCode` object. If the code is
-invalid, the `catch` callback will be called with a string representing the
+the `andThen` callback will be called with the `PromoCode` object. If the code
+is invalid, the `catch` callback will be called with a string representing the
 error.
 
 Errors include:
+
 - `"not_found"`: The code does not exist
 - `"expired"`: The code has expired
 - `"not_started"`: The code has not started
 - `"already_used"`: The player has already redeemed the code
 
 The `PromoCode` object has the following properties:
+
 - `code`: The code the player redeemed
 - `attributes`: A table of attributes you set on the dashboard
 - `used`: The number of times the code has been redeemed
